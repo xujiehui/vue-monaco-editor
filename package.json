@@ -1,0 +1,40 @@
+{
+  "name": "vue-monaco-editor",
+  "version": "1.0.0",
+  "description": "Monaco Editor Vue Component",
+  "main": "dist/vue-monaco-editor.cjs.js",
+  "module": "dist/vue-monaco-editor.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "patch": "npm version patch && git push --follow-tags && npm publish",
+    "minor": "npm version minor && git push --follow-tags && npm publish",
+    "major": "npm version major && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xujiehui/vue-monaco-editor.git"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "monaco-editor",
+    "code-editor"
+  ],
+  "author": "Endless",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xujiehui/vue-monaco-editor/issues"
+  },
+  "homepage": "https://github.com/xujiehui/vue-monaco-editor#readme",
+  "dependencies": {
+    "monaco-editor": "^0.23.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "rollup": "^2.45.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
