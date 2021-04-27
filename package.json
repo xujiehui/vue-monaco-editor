@@ -1,6 +1,6 @@
 {
   "name": "vue-monaco-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Monaco Editor Vue Component",
   "main": "dist/vue-monaco-editor.cjs.js",
   "module": "dist/vue-monaco-editor.esm.js",
