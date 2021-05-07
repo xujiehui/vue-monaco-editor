@@ -18,7 +18,7 @@
       language="javascript"
       class="prism"
       code="import Vue from 'vue'
-import VueMonacoEditor from 'vue-monaco-editor'
+import VueMonacoEditor from '@xxyy/vue-monaco-editor'
 
 Vue.use(VueMonacoEditor)
 "

@@ -5,8 +5,7 @@ import HeroIcons from 'vue-heroicons'
 import { cheveronDown, cheveronUp } from 'vue-heroicons/src/icons'
 import './assets/scss/style.scss'
 
-// import VueMonacoEditor from '../../src'
-import VueMonacoEditor from '../../'
+import VueMonacoEditor from '@xxyy/vue-monaco-editor'
 Vue.use(VueMonacoEditor)
 
 HeroIcons.add([cheveronDown, cheveronUp])

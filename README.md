@@ -26,7 +26,7 @@ Install the plugin into your Vue project:
 
 ``` javascript
 import Vue from 'vue'
-import VueMonacoEditor from 'vue-monaco-editor'
+import VueMonacoEditor from '@xxyy/vue-monaco-editor'
 
 Vue.use(VueMonacoEditor)
 ```
@@ -37,7 +37,7 @@ or use the component:
 import Vue from 'vue'
 import {
     VueMonacoEditor
-} from 'vue-monaco-editor'
+} from '@xxyy/vue-monaco-editor'
 
 Vue.component('vue-monaco-editor', VueMonacoEditor)
 ```
