@@ -66,13 +66,13 @@ Vue.component('vue-monaco-editor', VueMonacoEditor)
 
 | Option        | Type          | Default | Description |
 |:-------------|:-------------|:-------|:-------|:-------|
-| mode      | String        | `code` | code, diff | |
+| mode      | String        | `code` | code, diff | 
 | original      | String        | `''` | Only `mode=diff` need |
-| value      | String        | `''` | | |
-| height        | String | `100%` || |
+| value      | String        | `''` | | 
+| height        | String | `100%` | | 
 | width | String | `100%` || |
-| language      | String        | `javascript` | | |
-| theme | String | `vs-dark` | vs, hc-black, or vs-dark | |
-| lineNumbers | String | `on` | on, off | |
-| readOnly      | Boolean        | `false` | | |
-| options | Object | Merged with defaults below | See [Monaco Editor Options](https://microsoft.github.io/monaco-editor/api/interfaces/monaco.editor.ieditorconstructionoptions.html) | |
+| language      | String        | `javascript` | | 
+| theme | String | `vs-dark` | vs, hc-black, or vs-dark | 
+| lineNumbers | String | `on` | on, off | 
+| readOnly      | Boolean        | `false` | | 
+| options | Object | Merged with defaults below | See [Monaco Editor Options](https://microsoft.github.io/monaco-editor/api/interfaces/monaco.editor.ieditorconstructionoptions.html) | 
