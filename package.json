@@ -1,5 +1,5 @@
 {
-  "name": "vue-monaco-editor",
+  "name": "@xxyy/vue-monaco-editor",
   "version": "1.0.1",
   "description": "Monaco Editor Vue Component",
   "main": "dist/vue-monaco-editor.cjs.js",
@@ -36,5 +36,8 @@
     "rollup": "^2.45.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-terser": "^7.0.2"
+  },
+  "directories": {
+    "example": "example"
   }
 }
